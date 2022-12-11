@@ -1,0 +1,11 @@
+/*BELOW 650px*/
+@media (max-width: 35em) {
+  .card {
+    width: 90%;
+    grid-template-columns: 1fr;
+  }
+
+  .card img {
+    objet-fit: none;
+  }
+}

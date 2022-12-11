@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Fraunces", sans-serif;
+  background-color: hsl(30, 38%, 92%);
+}
+
+.container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  background-color: hsl(0, 0%, 100%);
+  width: 55rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 0.5rem 0.5rem rgba(0, 0, 0, 0.02);
+}
+
+.card img {
+  width: 100%;
+}
+
+.box-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  margin: 2.8rem 2.8rem 2.8rem 2.8rem;
+}
+
+.text-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  padding-right: 1rem;
+}
+
+.sub-heading {
+  font-family: "Montserrat";
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  font-size: 1rem;
+  color: hsla(228, 12%, 48%, 0.65);
+}
+
+.title {
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: hsl(212, 21%, 14%);
+  line-height: 1;
+}
+
+.text-content p {
+  font-size: 13px;
+  line-height: 1.6;
+  font-family: Montserrat;
+  color: hsl(228, 12%, 48%);
+}
+
+.price-tag {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1.8rem;
+}
+
+.price-tag strong {
+  font-size: 3rem;
+  color: hsl(158, 36%, 37%);
+}
+
+.price-tag span {
+  font-size: 1.3rem;
+  font-family: "Montserrat";
+  color: hsl(228, 12%, 48%);
+  text-decoration: line-through;
+  margin-right: auto;
+}
+
+.btn:link,
+.btn:visited {
+  font-family: "Montserrat";
+  text-align: center;
+  display: inline-block;
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+  background-color: #3c8067;
+  padding: 1.2rem 3rem;
+  border-radius: 8px;
+  transition: all 0.3s;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #1e4034;
+}
+
+.icon {
+  height: 2rem;
+  width: 2rem;
+  stroke: hsl(0, 0%, 100%);
+}
