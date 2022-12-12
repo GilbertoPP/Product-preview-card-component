@@ -1,11 +1,16 @@
 /*BELOW 650px*/
 @media (max-width: 35em) {
   .card {
-    width: 90%;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+    margin: 2rem 1rem;
   }
 
-  .card img {
-    objet-fit: none;
+  .perfume-desktop {
+    display: none;
+  }
+
+  .perfume-mobile {
+    display: inline;
   }
 }
