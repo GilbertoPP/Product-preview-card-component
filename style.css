@@ -41,14 +41,15 @@ body {
 .box-content {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  justify-content: space-between;
+  gap: 2.5rem;
   margin: 2.8rem 2.8rem;
 }
 
 .text-content {
   display: flex;
   flex-direction: column;
-  gap: 1.5rem;
+  gap: 2rem;
   padding-right: 1rem;
 }
 
